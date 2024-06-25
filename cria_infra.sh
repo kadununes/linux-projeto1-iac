@@ -22,13 +22,13 @@ useradd carlos -c "Carlos Eduardo" -s /bin/bash -m -p $(openssl passwd Senha123)
 useradd maria -c "Maria Antonia" -s /bin/bash -m -p $(openssl passwd Senha123) -G GRP_ADM
 useradd joao -c "João Carlos" -s /bin/bash -m -p $(openssl passwd Senha123) -G GRP_ADM
 
-useradd debora -c "Débora Vagaba" -s /bin/bash -m -p $(openssl passwd Senha123) -G GRP_VEN
+useradd debora -c "Débora Silva" -s /bin/bash -m -p $(openssl passwd Senha123) -G GRP_VEN
 useradd sebastiana -c "Sebastiana Ventura" -s /bin/bash -m -p $(openssl passwd Senha123) -G GRP_VEN
 useradd roberto -c "Roberto Justus" -s /bin/bash -m -p $(openssl passwd Senha123) -G GRP_VEN
 
-useradd josefina -c "Josefina Pernafina" -s /bin/bash -m -p $(openssl passwd Senha123) -G GRP_SEC
+useradd josefina -c "Josefina Luiza" -s /bin/bash -m -p $(openssl passwd Senha123) -G GRP_SEC
 useradd amanda -c "Amanda Brasa" -s /bin/bash -m -p $(openssl passwd Senha123) -G GRP_SEC
-useradd rogerio -c "Rogério Lambedouro" -s /bin/bash -m -p $(openssl passwd Senha123) -G GRP_SEC
+useradd rogerio -c "Rogério Roger" -s /bin/bash -m -p $(openssl passwd Senha123) -G GRP_SEC
 
 echo "------------ Especificando permissões dos diretórios -------------"
 
