@@ -15,8 +15,9 @@ echo "---------------- Criando grupos ---------------"
 groupadd GRP_ADM
 groupadd GRP_VEN
 groupadd GRP_SEC
-echo "------- Criando usuários e adicionando aos grupos -------- "
 
+
+echo "------- Criando usuários e adicionando aos grupos -------- "
 
 useradd carlos -c "Carlos Eduardo" -s /bin/bash -m -p $(openssl passwd Senha123) -G GRP_ADM
 useradd maria -c "Maria Antonia" -s /bin/bash -m -p $(openssl passwd Senha123) -G GRP_ADM
@@ -41,7 +42,6 @@ chmod 770 /ven
 chmod 770 /sec
 chmod 777 /publico
 
-echo "---------- Fim do script -------- "
 echo "----------------- FIM DE EXECUÇÃO DO SCRIPT ------------------"
 
 
